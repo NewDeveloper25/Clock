@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+  .clock {
+    height: 500px;
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 50%;
+    /* border: 5px solid gray; */
+    position: relative;
+    background-image: url(./img/33735-6-clock-no-hands-clipart\ \(1\).png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: aqua;
+  }
+  .min{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 27%;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    transform-origin: left;
+    border-radius: 50%;
+    transform: rotate(-90deg);
+  }
+  .hour {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20%;
+    height: 5px;
+    background-color: rgb(207, 0, 0);
+    transform-origin: left;
+    border-radius: 50%;
+    transform: rotate(-90deg);
+  }
+  .sec{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 33%;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    transform-origin: left;
+    border-radius: 50%;
+    transform: rotate(-90deg);
+  }
+  .mybox{
+    position: absolute;
+    top: 50%;
+    left: 49.5%;
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border-radius: 50%;
+  }
